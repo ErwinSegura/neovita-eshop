@@ -1,6 +1,6 @@
 'use client';
 
-import { ShoppingBag, MessageCircle, Stethoscope } from 'lucide-react';
+import { ShoppingBag, MessageCircle, BriefcaseMedical } from 'lucide-react';
 import { CartItem } from '@/types';
 
 interface NavbarProps {
@@ -19,10 +19,10 @@ export default function Navbar({ cart, setIsCartOpen }: NavbarProps) {
         {/* Logotipo / Nombre */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white shadow-md shadow-emerald-600/20">
-            <Stethoscope className="w-6 h-6" />
+            <BriefcaseMedical className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-slate-800 tracking-tight">Rehabilitación & Salud</h1>
+            <h1 className="text-lg font-bold text-slate-800 tracking-tight">NeoVita</h1>
             <p className="text-xs text-emerald-600 font-medium">Insumos Profesionales</p>
           </div>
         </div>

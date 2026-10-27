@@ -63,7 +63,7 @@ export default function Home() {
     { id: 'acupuntura', label: 'Acupuntura' },
     { id: 'auriculoterapia', label: 'Auriculoterapia' },
     { id: 'rehabilitacion', label: 'Rehabilitación' },
-    { id: 'ventosas', label: 'Ventosas & Moxa' },
+    { id: 'ventosas', label: 'Ventosas' },
   ];
 
   return (
