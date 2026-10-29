@@ -1,7 +1,7 @@
 export interface Product {
   id: string;
   name: string;
-  category: 'acupuntura' | 'auriculoterapia' | 'rehabilitacion' | 'ventosas';
+  category: 'acupuntura' | 'auriculoterapia' | 'rehabilitacion' | 'ventosas' | 'aromaterapia';
   price: number;
   image: string;
   description: string;

@@ -28,7 +28,7 @@ export default function CartDrawer({
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   const enviarPedidoWhatsApp = () => {
-    const telefonoMamá = "5215500000000"; // Reemplaza aquí con el número de WhatsApp de tu mamá
+    const telefonoMamá = "5215545848936"; // Reemplaza aquí con el número de WhatsApp de tu mamá
 
     let mensaje = `¡Hola! Me gustaría realizar el siguiente pedido:\n\n🛒 *Resumen del Pedido:*\n`;
 

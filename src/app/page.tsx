@@ -63,7 +63,8 @@ export default function Home() {
     { id: 'acupuntura', label: 'Acupuntura' },
     { id: 'auriculoterapia', label: 'Auriculoterapia' },
     { id: 'rehabilitacion', label: 'Rehabilitación' },
-    { id: 'ventosas', label: 'Ventosas & Moxa' },
+    { id: 'ventosas', label: 'Ventosas' },
+    { id: 'aromaterapia', label: 'Aromaterapia' },
   ];
 
   return (
@@ -148,7 +149,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-8 text-center text-slate-500 text-xs mt-auto">
-        <p>© 2026 Catálogo de Rehabilitación & Salud. Todos los derechos reservados.</p>
+        <p>© 2026 NeoVita. Todos los derechos reservados.</p>
       </footer>
 
       {/* Modales */}

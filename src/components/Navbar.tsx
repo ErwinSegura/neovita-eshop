@@ -10,7 +10,7 @@ interface NavbarProps {
 
 export default function Navbar({ cart, setIsCartOpen }: NavbarProps) {
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
-  const whatsappNumber = "5215500000000"; // Reemplaza luego con el número real
+  const whatsappNumber = "5215545848936"; // Reemplaza luego con el número real
 
   return (
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-emerald-100 shadow-sm">
@@ -22,7 +22,7 @@ export default function Navbar({ cart, setIsCartOpen }: NavbarProps) {
             <Stethoscope className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-slate-800 tracking-tight">Rehabilitación & Salud</h1>
+            <h1 className="text-lg font-bold text-slate-800 tracking-tight">NeoVita</h1>
             <p className="text-xs text-emerald-600 font-medium">Insumos Profesionales</p>
           </div>
         </div>
